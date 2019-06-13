@@ -1,0 +1,1370 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "ask_faq_atm_pin_not_working",
+        "text": "atm pin is not working"
+      },
+      {
+        "intent": "ask_faq_atm_pin_not_working",
+        "text": "my atm pin is not working what should i do?"
+      },
+      {
+        "intent": "ask_faq_atm_services",
+        "text": "what kind of atm services you are providing"
+      },
+      {
+        "intent": "ask_faq_atm_services",
+        "text": "atm services"
+      },
+      {
+        "intent": "ask_faq_atm_services",
+        "text": "what service are offered at HBL atm"
+      },
+      {
+        "intent": "ask_faq_car_loan",
+        "text": "can i have any car loan"
+      },
+      {
+        "intent": "ask_faq_car_loan",
+        "text": "are you offering any car loan"
+      },
+      {
+        "intent": "ask_faq_car_loan",
+        "text": "is car loan available"
+      },
+      {
+        "intent": "ask_faq_car_loan",
+        "text": "who can apply for hbl car loan"
+      },
+      {
+        "intent": "ask_faq_car_loan",
+        "text": "i need car loan"
+      },
+      {
+        "intent": "ask_faq_car_loan",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "Car",
+            "entity": "loan"
+          }
+        ],
+        "text": "how can i get car loan"
+      },
+      {
+        "intent": "ask_faq_car_loan",
+        "entities": [
+          {
+            "start": 34,
+            "end": 42,
+            "value": "Car",
+            "entity": "loan"
+          }
+        ],
+        "text": "what is the procedure for getting car loan"
+      },
+      {
+        "intent": "ask_faq_car_loan",
+        "entities": [
+          {
+            "start": 35,
+            "end": 43,
+            "value": "Car",
+            "entity": "loan"
+          }
+        ],
+        "text": "what documents are needed to apply car loan"
+      },
+      {
+        "intent": "ask_faq_car_loan",
+        "entities": [
+          {
+            "start": 34,
+            "end": 42,
+            "value": "Car",
+            "entity": "loan"
+          }
+        ],
+        "text": "what is the porcedure for getting car loan"
+      },
+      {
+        "intent": "ask_faq_car_loan",
+        "entities": [
+          {
+            "start": 30,
+            "end": 38,
+            "value": "Car",
+            "entity": "loan"
+          }
+        ],
+        "text": "what documents are needed for car loan"
+      },
+      {
+        "intent": "ask_faq_car_loan",
+        "entities": [
+          {
+            "start": 40,
+            "end": 48,
+            "value": "Car",
+            "entity": "loan"
+          }
+        ],
+        "text": "what documents are required for getting car loan"
+      },
+      {
+        "intent": "ask_faq_car_loan_features",
+        "entities": [
+          {
+            "start": 42,
+            "end": 50,
+            "value": "Car",
+            "entity": "loan"
+          }
+        ],
+        "text": "what are the benefits i will recieve form car loan"
+      },
+      {
+        "intent": "ask_faq_car_loan_features",
+        "entities": [
+          {
+            "start": 29,
+            "end": 37,
+            "value": "Car",
+            "entity": "loan"
+          }
+        ],
+        "text": "what are the features of the car loan"
+      },
+      {
+        "intent": "ask_faq_car_loan_features",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "Car",
+            "entity": "loan"
+          }
+        ],
+        "text": "why should i apply for car loan"
+      },
+      {
+        "intent": "ask_faq_car_loan_joint",
+        "entities": [
+          {
+            "start": 55,
+            "end": 63,
+            "value": "Car",
+            "entity": "loan"
+          }
+        ],
+        "text": "Is it possible for two people to jointly apply for HBL car loan"
+      },
+      {
+        "intent": "ask_faq_car_loan_joint",
+        "entities": [
+          {
+            "start": 40,
+            "end": 48,
+            "value": "Car",
+            "entity": "loan"
+          }
+        ],
+        "text": "can me and my friend can apply for same car loan"
+      },
+      {
+        "intent": "ask_faq_car_loan_joint",
+        "entities": [
+          {
+            "start": 30,
+            "end": 38,
+            "value": "Car",
+            "entity": "loan"
+          }
+        ],
+        "text": "can two people apply for same car loan"
+      },
+      {
+        "intent": "ask_faq_car_loan_monthly_installments",
+        "entities": [
+          {
+            "start": 10,
+            "end": 18,
+            "value": "Car",
+            "entity": "loan"
+          }
+        ],
+        "text": "can i get car loan with monthly installments"
+      },
+      {
+        "intent": "ask_faq_car_loan_monthly_installments",
+        "entities": [
+          {
+            "start": 27,
+            "end": 35,
+            "value": "Car",
+            "entity": "loan"
+          }
+        ],
+        "text": "what is your procedure for car loan with monthly installments"
+      },
+      {
+        "intent": "ask_faq_car_loan_monthly_installments",
+        "entities": [
+          {
+            "start": 60,
+            "end": 68,
+            "value": "Car",
+            "entity": "loan"
+          }
+        ],
+        "text": "How will I make the monthly installment payments for my HBL car loan facility"
+      },
+      {
+        "intent": "ask_faq_car_loan_partial_payments",
+        "entities": [
+          {
+            "start": 34,
+            "end": 42,
+            "value": "Car",
+            "entity": "loan"
+          }
+        ],
+        "text": "Can I make partial payment for my car loan during the tenure"
+      },
+      {
+        "intent": "ask_faq_car_loan_partial_payments",
+        "entities": [
+          {
+            "start": 35,
+            "end": 43,
+            "value": "Car",
+            "entity": "loan"
+          }
+        ],
+        "text": "can i make partial payments for my car loan"
+      },
+      {
+        "intent": "ask_faq_car_loan_partial_payments",
+        "entities": [
+          {
+            "start": 21,
+            "end": 29,
+            "value": "Car",
+            "entity": "loan"
+          }
+        ],
+        "text": "partial payments for car loan"
+      },
+      {
+        "intent": "ask_faq_card_activation",
+        "entities": [
+          {
+            "start": 22,
+            "end": 32,
+            "value": "debit",
+            "entity": "card"
+          }
+        ],
+        "text": "how can i activate my debit card"
+      },
+      {
+        "intent": "ask_faq_card_activation",
+        "entities": [
+          {
+            "start": 22,
+            "end": 33,
+            "value": "credit",
+            "entity": "card"
+          }
+        ],
+        "text": "how can i activate my credit card"
+      },
+      {
+        "intent": "ask_faq_card_activation",
+        "entities": [
+          {
+            "start": 25,
+            "end": 29,
+            "value": "card",
+            "entity": "card"
+          }
+        ],
+        "text": "how should i activate my card"
+      },
+      {
+        "intent": "ask_faq_card_activation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "debit",
+            "entity": "card"
+          }
+        ],
+        "text": "debit card activation"
+      },
+      {
+        "intent": "ask_faq_card_activation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "credit",
+            "entity": "card"
+          }
+        ],
+        "text": "credit card activation"
+      },
+      {
+        "intent": "ask_faq_card_replacement",
+        "entities": [
+          {
+            "start": 21,
+            "end": 32,
+            "value": "credit",
+            "entity": "card"
+          }
+        ],
+        "text": "How can I apply for  credit card replacement"
+      },
+      {
+        "intent": "ask_faq_card_replacement",
+        "entities": [
+          {
+            "start": 22,
+            "end": 32,
+            "value": "debit",
+            "entity": "card"
+          }
+        ],
+        "text": "how can i replace my  debit card"
+      },
+      {
+        "intent": "ask_faq_card_replacement",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "card",
+            "entity": "card"
+          }
+        ],
+        "text": "can i apply for card replacement"
+      },
+      {
+        "intent": "ask_faq_change_details",
+        "text": "how can i change my bank details"
+      },
+      {
+        "intent": "ask_faq_change_details",
+        "text": "can i change my bank details"
+      },
+      {
+        "intent": "ask_faq_change_details",
+        "text": "what should i do if my details are changed"
+      },
+      {
+        "intent": "ask_faq_change_details",
+        "text": "can i change my bank details ?"
+      },
+      {
+        "intent": "ask_faq_home_loan",
+        "entities": [
+          {
+            "start": 22,
+            "end": 31,
+            "value": "Home",
+            "entity": "loan"
+          }
+        ],
+        "text": "Who can apply for HBL Home Loan?"
+      },
+      {
+        "intent": "ask_faq_home_loan",
+        "entities": [
+          {
+            "start": 15,
+            "end": 24,
+            "value": "Home",
+            "entity": "loan"
+          }
+        ],
+        "text": "can i take any Home Loan"
+      },
+      {
+        "intent": "ask_faq_home_loan",
+        "entities": [
+          {
+            "start": 16,
+            "end": 25,
+            "value": "Home",
+            "entity": "loan"
+          }
+        ],
+        "text": "can i apply for Home Loan"
+      },
+      {
+        "intent": "ask_faq_home_loan",
+        "entities": [
+          {
+            "start": 7,
+            "end": 16,
+            "value": "Home",
+            "entity": "loan"
+          }
+        ],
+        "text": "i need Home Loan"
+      },
+      {
+        "intent": "ask_faq_home_loan",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "Home",
+            "entity": "loan"
+          }
+        ],
+        "text": "how can i get Home Loan?"
+      },
+      {
+        "intent": "ask_faq_home_loan",
+        "entities": [
+          {
+            "start": 34,
+            "end": 43,
+            "value": "Home",
+            "entity": "loan"
+          }
+        ],
+        "text": "what is the procedure for getting Home Loan"
+      },
+      {
+        "intent": "ask_faq_home_loan",
+        "entities": [
+          {
+            "start": 39,
+            "end": 48,
+            "value": "Home",
+            "entity": "loan"
+          }
+        ],
+        "text": "what documents are needed to apply for Home Loan"
+      },
+      {
+        "intent": "ask_faq_home_loan",
+        "entities": [
+          {
+            "start": 34,
+            "end": 43,
+            "value": "Home",
+            "entity": "loan"
+          }
+        ],
+        "text": "what is the procedure for getting Home Loan"
+      },
+      {
+        "intent": "ask_faq_home_loan",
+        "entities": [
+          {
+            "start": 40,
+            "end": 49,
+            "value": "Home",
+            "entity": "loan"
+          }
+        ],
+        "text": "what documents are required for getting Home Loan"
+      },
+      {
+        "intent": "ask_faq_home_loan_features",
+        "entities": [
+          {
+            "start": 42,
+            "end": 51,
+            "value": "Home",
+            "entity": "loan"
+          }
+        ],
+        "text": "what are the benefits i will recieve form Home Loan"
+      },
+      {
+        "intent": "ask_faq_home_loan_features",
+        "entities": [
+          {
+            "start": 29,
+            "end": 38,
+            "value": "Home",
+            "entity": "loan"
+          }
+        ],
+        "text": "what are the features of the Home Loan"
+      },
+      {
+        "intent": "ask_faq_home_loan_features",
+        "entities": [
+          {
+            "start": 23,
+            "end": 32,
+            "value": "Home",
+            "entity": "loan"
+          }
+        ],
+        "text": "why should i apply for Home Loan"
+      },
+      {
+        "intent": "ask_faq_home_loan_joint",
+        "entities": [
+          {
+            "start": 55,
+            "end": 64,
+            "value": "Home",
+            "entity": "loan"
+          }
+        ],
+        "text": "Is it possible for two people to jointly apply for HBL Home Loan"
+      },
+      {
+        "intent": "ask_faq_home_loan_joint",
+        "entities": [
+          {
+            "start": 40,
+            "end": 49,
+            "value": "Home",
+            "entity": "loan"
+          }
+        ],
+        "text": "can me and my friend can apply for same Home Loan"
+      },
+      {
+        "intent": "ask_faq_home_loan_joint",
+        "entities": [
+          {
+            "start": 30,
+            "end": 39,
+            "value": "Home",
+            "entity": "loan"
+          }
+        ],
+        "text": "can two people apply for same Home Loan"
+      },
+      {
+        "intent": "ask_faq_home_loan_non_resident:",
+        "entities": [
+          {
+            "start": 42,
+            "end": 51,
+            "value": "Home",
+            "entity": "loan"
+          }
+        ],
+        "text": "can non resident Pakistanis apply for the Home Loan"
+      },
+      {
+        "intent": "ask_faq_home_loan_non_resident:",
+        "entities": [
+          {
+            "start": 46,
+            "end": 55,
+            "value": "Home",
+            "entity": "loan"
+          }
+        ],
+        "text": "can people from other countries can apply for Home Loan"
+      },
+      {
+        "intent": "ask_faq_home_loan_property_value",
+        "text": "How is the value of property assessed"
+      },
+      {
+        "intent": "ask_faq_home_loan_property_value",
+        "text": "how value of my property is determined"
+      },
+      {
+        "intent": "ask_faq_home_loan_property_value",
+        "text": "how value of my house is determined"
+      },
+      {
+        "intent": "ask_faq_loan",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "value": "loan",
+            "entity": "loan"
+          }
+        ],
+        "text": "can i take any loan"
+      },
+      {
+        "intent": "ask_faq_loan",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "loan",
+            "entity": "loan"
+          }
+        ],
+        "text": "can i apply for loan"
+      },
+      {
+        "intent": "ask_faq_loan",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "loan",
+            "entity": "loan"
+          }
+        ],
+        "text": "any loan available"
+      },
+      {
+        "intent": "ask_faq_loan",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "loan",
+            "entity": "loan"
+          }
+        ],
+        "text": "i need loan"
+      },
+      {
+        "intent": "ask_faq_lost_card",
+        "entities": [
+          {
+            "start": 15,
+            "end": 26,
+            "value": "credit",
+            "entity": "card"
+          }
+        ],
+        "text": "i have lost my credit card"
+      },
+      {
+        "intent": "ask_faq_lost_card",
+        "entities": [
+          {
+            "start": 29,
+            "end": 40,
+            "value": "credit",
+            "entity": "card"
+          }
+        ],
+        "text": "how can i report for my lost credit card"
+      },
+      {
+        "intent": "ask_faq_lost_card",
+        "text": "my credit card is stolen"
+      },
+      {
+        "intent": "ask_faq_lost_card",
+        "entities": [
+          {
+            "start": 36,
+            "end": 40,
+            "value": "card",
+            "entity": "card"
+          }
+        ],
+        "text": "What should I do in the event of my card being lost or stolen"
+      },
+      {
+        "intent": "ask_faq_lost_card",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "value": "card",
+            "entity": "card"
+          }
+        ],
+        "text": "i have lost my card"
+      },
+      {
+        "intent": "ask_faq_lost_card",
+        "entities": [
+          {
+            "start": 3,
+            "end": 13,
+            "value": "debit",
+            "entity": "card"
+          }
+        ],
+        "text": "my debit card is lost"
+      },
+      {
+        "intent": "ask_faq_freedom_account",
+        "entities": [
+          {
+            "start": 8,
+            "end": 23,
+            "value": "freedom account",
+            "entity": "account"
+          }
+        ],
+        "text": "what is freedom account"
+      },
+      {
+        "intent": "ask_faq_freedom_account",
+        "entities": [
+          {
+            "start": 20,
+            "end": 35,
+            "value": "freedom account",
+            "entity": "account"
+          }
+        ],
+        "text": "what do you mean by freedom account"
+      },
+      {
+        "intent": "ask_faq_freedom_account_procedure",
+        "entities": [
+          {
+            "start": 20,
+            "end": 35,
+            "value": "freedom account",
+            "entity": "account"
+          }
+        ],
+        "text": "how can i apply for freedom account"
+      },
+      {
+        "intent": "ask_faq_freedom_account_procedure",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "freedom account",
+            "entity": "account"
+          }
+        ],
+        "text": "freedom account procedure"
+      },
+      {
+        "intent": "ask_faq_freedom_account_procedure",
+        "entities": [
+          {
+            "start": 32,
+            "end": 47,
+            "value": "freedom account",
+            "entity": "account"
+          }
+        ],
+        "text": "what documents are required for freedom account"
+      },
+      {
+        "intent": "ask_faq_freedom_account_procedure",
+        "entities": [
+          {
+            "start": 17,
+            "end": 32,
+            "value": "freedom account",
+            "entity": "account"
+          }
+        ],
+        "text": "i want to open a freedom account"
+      },
+      {
+        "intent": "ask_faq_freedom_account_features",
+        "entities": [
+          {
+            "start": 42,
+            "end": 57,
+            "value": "freedom account",
+            "entity": "account"
+          }
+        ],
+        "text": "what are the benefits i will recieve form freedom account"
+      },
+      {
+        "intent": "ask_faq_freedom_account_features",
+        "entities": [
+          {
+            "start": 29,
+            "end": 44,
+            "value": "freedom account",
+            "entity": "account"
+          }
+        ],
+        "text": "what are the features of the freedom account"
+      },
+      {
+        "intent": "ask_faq_basic_banking_account",
+        "entities": [
+          {
+            "start": 8,
+            "end": 29,
+            "value": "basic banking account",
+            "entity": "account"
+          }
+        ],
+        "text": "what is basic banking account"
+      },
+      {
+        "intent": "ask_faq_basic_banking_account",
+        "entities": [
+          {
+            "start": 20,
+            "end": 41,
+            "value": "Basic Banking account",
+            "entity": "account"
+          }
+        ],
+        "text": "what do you mean by Basic Banking account"
+      },
+      {
+        "intent": "ask_faq_basic_banking_account_procedure",
+        "entities": [
+          {
+            "start": 20,
+            "end": 41,
+            "value": "Basic Banking account",
+            "entity": "account"
+          }
+        ],
+        "text": "how can i apply for Basic Banking account"
+      },
+      {
+        "intent": "ask_faq_basic_banking_account_procedure",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "value": "Basic Banking account",
+            "entity": "account"
+          }
+        ],
+        "text": "Basic Banking account procedure"
+      },
+      {
+        "intent": "ask_faq_basic_banking_account_procedure",
+        "entities": [
+          {
+            "start": 32,
+            "end": 53,
+            "value": "Basic Banking account",
+            "entity": "account"
+          }
+        ],
+        "text": "what documents are required for Basic Banking account"
+      },
+      {
+        "intent": "ask_faq_basic_banking_account_procedure",
+        "entities": [
+          {
+            "start": 20,
+            "end": 41,
+            "value": "Basic Banking account",
+            "entity": "account"
+          }
+        ],
+        "text": "i want to apply for Basic Banking account"
+      },
+      {
+        "intent": "ask_faq_basic_banking_account_features",
+        "entities": [
+          {
+            "start": 42,
+            "end": 63,
+            "value": "Basic Banking account",
+            "entity": "account"
+          }
+        ],
+        "text": "what are the benefits i will recieve form Basic Banking account"
+      },
+      {
+        "intent": "ask_faq_basic_banking_account_features",
+        "entities": [
+          {
+            "start": 29,
+            "end": 50,
+            "value": "Basic Banking account",
+            "entity": "account"
+          }
+        ],
+        "text": "what are the features of the Basic Banking account"
+      },
+      {
+        "intent": "ask_faq_asaan_account",
+        "entities": [
+          {
+            "start": 8,
+            "end": 21,
+            "value": "Asaan account",
+            "entity": "account"
+          }
+        ],
+        "text": "what is Asaan account"
+      },
+      {
+        "intent": "ask_faq_asaan_account",
+        "entities": [
+          {
+            "start": 20,
+            "end": 41,
+            "value": "Asaan Banking account",
+            "entity": "account"
+          }
+        ],
+        "text": "what do you mean by Asaan Banking account"
+      },
+      {
+        "intent": "ask_faq_asaan_account_procedure",
+        "entities": [
+          {
+            "start": 20,
+            "end": 33,
+            "value": "Asaan account",
+            "entity": "account"
+          }
+        ],
+        "text": "how can i apply for Asaan account"
+      },
+      {
+        "intent": "ask_faq_asaan_account_procedure",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "value": "Asaan Banking account",
+            "entity": "account"
+          }
+        ],
+        "text": "Asaan Banking account procedure"
+      },
+      {
+        "intent": "ask_faq_asaan_account_procedure",
+        "entities": [
+          {
+            "start": 32,
+            "end": 53,
+            "value": "Asaan Banking account",
+            "entity": "account"
+          }
+        ],
+        "text": "what documents are required for Asaan Banking account"
+      },
+      {
+        "intent": "ask_faq_asaan_account_procedure",
+        "entities": [
+          {
+            "start": 20,
+            "end": 41,
+            "value": "Asaan Banking account",
+            "entity": "account"
+          }
+        ],
+        "text": "i want to apply for Asaan Banking account"
+      },
+      {
+        "intent": "ask_faq_asaan_account_features",
+        "text": "what are the benefits i will recieve form asaan account"
+      },
+      {
+        "intent": "ask_faq_asaan_account_features",
+        "text": "what are the features of the basic asaan account"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodnight"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good night"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see ya"
+      },
+      {
+        "intent": "goodbye",
+        "text": "toodle-oo"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "gotta go"
+      },
+      {
+        "intent": "goodbye",
+        "text": "farewell"
+      },
+      {
+        "intent": "goodbye",
+        "text": "catch you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye for now"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye was nice talking to you"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye udo"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye bot"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bot"
+      },
+      {
+        "intent": "goodbye",
+        "text": "k byyye #slay"
+      },
+      {
+        "intent": "goodbye",
+        "text": "tlak to you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "ciao"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "then bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "tschüssikowski"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye!"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi bot"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey bot"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "greet",
+        "text": "Good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "hi again"
+      },
+      {
+        "intent": "greet",
+        "text": "hi folks"
+      },
+      {
+        "intent": "greet",
+        "text": "hi Mister"
+      },
+      {
+        "intent": "greet",
+        "text": "hi pal!"
+      },
+      {
+        "intent": "greet",
+        "text": "hi there"
+      },
+      {
+        "intent": "greet",
+        "text": "greetings"
+      },
+      {
+        "intent": "greet",
+        "text": "hello everybody"
+      },
+      {
+        "intent": "greet",
+        "text": "hello is anybody there"
+      },
+      {
+        "intent": "greet",
+        "text": "hello robot"
+      },
+      {
+        "intent": "greet",
+        "text": "hallo"
+      },
+      {
+        "intent": "greet",
+        "text": "heeey"
+      },
+      {
+        "intent": "greet",
+        "text": "hi hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hey hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello there"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "yo"
+      },
+      {
+        "intent": "greet",
+        "text": "hola"
+      },
+      {
+        "intent": "greet",
+        "text": "hi?"
+      },
+      {
+        "intent": "greet",
+        "text": "hey bot!"
+      },
+      {
+        "intent": "greet",
+        "text": "hello friend"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "hii"
+      },
+      {
+        "intent": "greet",
+        "text": "hello sweet boy"
+      },
+      {
+        "intent": "greet",
+        "text": "yoo"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "hiihihi"
+      },
+      {
+        "intent": "greet",
+        "text": "hello sweatheart"
+      },
+      {
+        "intent": "greet",
+        "text": "hellooo"
+      },
+      {
+        "intent": "greet",
+        "text": "helloooo"
+      },
+      {
+        "intent": "greet",
+        "text": "heyo"
+      },
+      {
+        "intent": "greet",
+        "text": "ayyyy whaddup"
+      },
+      {
+        "intent": "greet",
+        "text": "hello?"
+      },
+      {
+        "intent": "greet",
+        "text": "Hallo"
+      },
+      {
+        "intent": "greet",
+        "text": "heya"
+      },
+      {
+        "intent": "greet",
+        "text": "hey bot"
+      },
+      {
+        "intent": "greet",
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "text": "Hellllooooooo"
+      },
+      {
+        "intent": "greet",
+        "text": "whats up"
+      },
+      {
+        "intent": "greet",
+        "text": "Hei"
+      },
+      {
+        "intent": "greet",
+        "text": "Well hello there ;)"
+      },
+      {
+        "intent": "greet",
+        "text": "I said, helllllloooooO!!!!"
+      },
+      {
+        "intent": "greet",
+        "text": "Heya"
+      },
+      {
+        "intent": "greet",
+        "text": "Whats up my bot"
+      },
+      {
+        "intent": "greet",
+        "text": "hiii"
+      },
+      {
+        "intent": "greet",
+        "text": "heyho"
+      },
+      {
+        "intent": "greet",
+        "text": "hey, let's talk"
+      },
+      {
+        "intent": "greet",
+        "text": "hey let's talk"
+      },
+      {
+        "intent": "greet",
+        "text": "jojojo"
+      },
+      {
+        "intent": "greet",
+        "text": "hey dude"
+      },
+      {
+        "intent": "greet",
+        "text": "hello it is me again"
+      },
+      {
+        "intent": "greet",
+        "text": "what up"
+      },
+      {
+        "intent": "greet",
+        "text": "hi there"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "jop"
+      },
+      {
+        "intent": "greet",
+        "text": "hi friend"
+      },
+      {
+        "intent": "greet",
+        "text": "hi there it's me"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi there"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": [
+      {
+        "value": "Car",
+        "synonyms": [
+          "car loan"
+        ]
+      },
+      {
+        "value": "debit",
+        "synonyms": [
+          "debit card"
+        ]
+      },
+      {
+        "value": "credit",
+        "synonyms": [
+          "credit card"
+        ]
+      },
+      {
+        "value": "Home",
+        "synonyms": [
+          "Home Loan"
+        ]
+      }
+    ]
+  }
+}

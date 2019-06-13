@@ -1,0 +1,278 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_ask_faq_lost_card
+- utter_ask_faq_atm_services
+- utter_ask_faq_change_details
+- utter_ask_faq_card_replacement
+- utter_ask_faq_card_activation
+- utter_ask_faq_atm_pin_not_working
+- utter_ask_faq_loan
+- utter_ask_faq_car_loan
+- utter_ask_faq_car_loan_monthly_installments
+- utter_ask_faq_car_loan_partial_payments
+- utter_ask_faq_car_loan_joint
+- utter_ask_faq_home_loan
+- utter_ask_faq_home_loan_joint
+- utter_ask_faq_home_loan_non_resident
+- utter_ask_faq_home_loan_property_value
+- utter_ask_faq_car_loan_procedure
+- utter_ask_faq_car_loan_features
+- utter_ask_faq_home_loan_procedure
+- utter_ask_faq_home_loan_features
+- utter_ask_faq_freedom_account
+- utter_ask_faq_freedom_account_procedure
+- utter_ask_faq_freedom_account_features
+- utter_ask_faq_basic_banking_account
+- utter_ask_faq_basic_banking_account_features
+- utter_ask_faq_basic_banking_account_procedure
+- utter_ask_faq_asaan_account
+- utter_ask_faq_asaan_account_procedure
+- utter_ask_faq_asaan_account_features
+- action_faqs
+- utter_default
+- utter_goodbye
+config:
+  store_entities_as_slots: true
+entities:
+- card
+- loan
+- account
+- branch
+- query
+forms: []
+intents:
+- ask_faq_card_replacement:
+    use_entities: true
+- ask_faq_lost_card:
+    use_entities: true
+- ask_faq_atm_services:
+    use_entities: true
+- ask_faq_card_activation:
+    use_entities: true
+- ask_faq_change_details:
+    use_entities: true
+- ask_faq_atm_pin_not_working:
+    use_entities: true
+- ask_faq_loan:
+    use_entities: true
+- ask_faq_car_loan:
+    use_entities: true
+- ask_faq_car_loan_monthly_installments:
+    use_entities: true
+- ask_faq_car_loan_partial_payments:
+    use_entities: true
+- ask_faq_car_loan_joint:
+    use_entities: true
+- ask_faq_car_loan_procedure:
+    use_entities: true
+- ask_faq_car_loan_features:
+    use_entities: true
+- ask_faq_home_loan:
+    use_entities: true
+- ask_faq_home_loan_joint:
+    use_entities: true
+- ask_faq_home_loan_non_resident:
+    use_entities: true
+- ask_faq_home_loan_property_value:
+    use_entities: true
+- ask_faq_home_loan_procedure:
+    use_entities: true
+- ask_faq_home_loan_features:
+    use_entities: true
+- ask_faq_freedom_account:
+    use_entities: true
+- ask_faq_freedom_account_procedure:
+    use_entities: true
+- ask_faq_freedom_account_features:
+    use_entities: true
+- ask_faq_basic_banking_account:
+    use_entities: true
+- ask_faq_basic_banking_account_procedure:
+    use_entities: true
+- ask_faq_basic_banking_account_features:
+    use_entities: true
+- ask_faq_asaan_account:
+    use_entities: true
+- ask_faq_asaan_account_procedure:
+    use_entities: true
+- ask_faq_asaan_account_features:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- greet:
+    use_entities: true
+- human_handoff:
+    use_entities: true
+slots:
+  account:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  card:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.CategoricalSlot
+    values:
+    - credit
+    - debit
+  loan:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.CategoricalSlot
+    values:
+    - home
+    - car
+  query:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ask_faq_asaan_account:
+  - text: A current account that offers ease with the simplest account opening requirements.
+      Experience hassle-free banking and convenience.
+  utter_ask_faq_asaan_account_features:
+  - text: '    Open an account with just PKR 100/- Free ﬁrst year PayPak debit card
+      No minimum balance requirement Avail up to 4 free over-the-counter withdrawals
+      every month Maximum account balance up to 500,000 Simple 1 page account opening
+      form Receive biannual account statements Access E-statements, 24 hours a day
+      Cheque book, E-statement, SMS Alerts available'
+  utter_ask_faq_asaan_account_procedure:
+  - text: " Applicant to provide:\nAny one of the following documents may be used\
+      \ as a proof of identity for opening of Asaan Account: • Computerized/Smart\
+      \ National Identity Card (CNIC/SNIC) • National Identity Card for Overseas Pakistanis\
+      \ (NICOP) • Pakistan Origin Card (POC) • Alien Registration Card (ARC) issued\
+      \ by National Aliens Registration Authority (NARA) • Passport • Pension Book\n\
+      \nMinor Applicant to provide\n• Photocopy of Form-B • Minor to provide Birth\
+      \ Certificate or Student ID card • Guardian to provide photocopy of any of identity\
+      \ document as provided above  "
+  utter_ask_faq_atm_pin_not_working:
+  - text: Cont​act HBL PhoneBanking at 111-111-425 or visit an HBL Branch.
+  utter_ask_faq_atm_services:
+  - text: HBL ATMs can be used for cash withdrawals, HBL DebitCard activation, balance
+      inquiry, mini statement generation, utility bill payments, credit card payments,
+      mobile bill payments, interbank and intrabank funds transfer.
+  utter_ask_faq_basic_banking_account:
+  - text: ' A simple bank account for individuals with minimum transactional requirements.
+      It enables you to fulﬁll your basic banking needs.'
+  utter_ask_faq_basic_banking_account_features:
+  - text: ' Open an account with just Rs.1,000. No minimum balance requirement. Avail
+      up to two chequing withdrawals in a month (for more transactions, charges applicable
+      as per the prevalent Schedule of Bank Charges) Access numerous branches and
+      ATMs across Pakistan'
+  utter_ask_faq_basic_banking_account_procedure:
+  - text: " Applicant to provide:\nOriginal CNIC along with veriﬁed copy Proof of\
+      \ income Copy of recent utility bill Terms and conditions apply. "
+  utter_ask_faq_car_loan:
+  - text: If you are a salaried or self-employed business person/professional having
+      a regular, stable and verifiable income stream , you can apply for HBL CarLoan.
+  utter_ask_faq_car_loan_features:
+  - text: '  These are the features of the car laon Financing limit between PKR 200,000
+      to PKR 5,000,000 Repay within a 7 year time period (5 years for used car financing).
+      Option to choose between fixed and floating rate Comprehensive insurance coverage
+      and tracker arrangement through leading business partners Dedicated after sales
+      service'
+  utter_ask_faq_car_loan_joint:
+  - text: Yes, two people can jointly apply for the CarLoan facility as Co-borrowers.
+      Subject to fulfillment of certain criteria the Co-borrower’s income will be
+      clubbed with your income to meet the requirement.
+  utter_ask_faq_car_loan_monthly_installments:
+  - text: For your convenience, a non-checking repayment account will be opened in
+      your name so that you can easily deposit your monthly installment in the same
+      through any HBL branch.
+  utter_ask_faq_car_loan_partial_payments:
+  - text: Yes, you can make partial payment during the tenure. However, certain charges
+      will apply. For details please contact HBL PhoneBanking at 111-111-425 or Click
+      here for detailed Schedule of charges .
+  utter_ask_faq_car_loan_procedure:
+  - text: " 1) Salaried individuals to provide: Original copy of CNIC along with verified\
+      \ copy Two recent passport size photographs Latest original salary slip and\
+      \ personal bank statement for last three months\n2) Self-employed business persons/professionals\
+      \ to provide:\nOriginal copy of CNIC along with verified copy Two recent passport\
+      \ size photographs Bank statement for last 6 months and bank letter confirming\
+      \ details of account Proof of business"
+  utter_ask_faq_card_activation:
+  - text: "To activate your HBL DebitCard, please follow the steps mentioned below:\
+      \ Step 1: Generate your 5 digit activation code by sending the following SMS\
+      \ to 4250 using your HBL registered mobile number:\nDC(Last 4 digits of your\
+      \ Debit card) Example: DC4321"
+  utter_ask_faq_card_replacement:
+  - text: You can apply for card replacement by visiting your home branch or calling
+      HBL PhoneBanking at 111-111-425
+  utter_ask_faq_change_details:
+  - text: You can submit a written request or an Additional Request Form to your home
+      branch mentioning clearly the change in your details.​​
+  utter_ask_faq_freedom_account:
+  - text: ' This account provides a range of free unlimited features catering to the
+      banking needs of business persons. It is designed for sole proprietors, partnership
+      firms and companies across all industries, enabling them to fulfill their business
+      requirements with a convenient and hassle-free banking experience. '
+  utter_ask_faq_freedom_account_features:
+  - text: 'These are the freatures of the Freedom Account Free inter-city cheque clearing
+      Free stop payment of cheque Free SMS alerts on all transactions Waiver on cheque
+      return charges Free issuance and cancellation of banker’s cheque Free cheque
+      book and duplicate account statement Free funds transfer Free cash withdrawals
+      and deposits Free HBL Debit Card (Individuals & Sole Proprietors) Free online
+      funds transfer transactions* Free intercity funds transfer through the HBL Freedom
+      Account using HBL network Free SMS alert service available to individuals and
+      sole proprietors for all transactions '
+  utter_ask_faq_freedom_account_procedure:
+  - text: " 1) Sole Proprietor to provide:\nOriginal CNIC along with verified copy\
+      \ Request Letter Copy of NTN certificate\n2)  Partnership firms to provide:\n\
+      Attested copy of certificate of registration Certified copy of partnership/partnership\
+      \ deed Letter of partnership Copy of NTN certificate Verified CNIC copies of\
+      \ partners\n3) Companies to provide:\nCertificate of incorporation Memorandum\
+      \ of association Articles of association Certified copy of Form 29 Verified\
+      \ CNIC copies of signatories Copy of NTN certificate and SECP registration\n\
+      *Terms and conditions apply "
+  utter_ask_faq_home_loan:
+  - text: Any salaried or self-employed business person / professional with a regular,
+      stable and verifiable income stream can apply for HBL HomeLoan.
+  utter_ask_faq_home_loan_features:
+  - text: 'These are the featuers of the home loan • Financing limit between PKR 2,000,000
+      to PKR 40,000,000 • Flexibility of choosing between fixed and variable mark-up
+      rate • Repayment tenure ranging from 5 years to 20 years • Free property insurance
+      at all times ensuring peace of mind '
+  utter_ask_faq_home_loan_joint:
+  - text: 'Yes, two people can jointly apply for the home loan facility as co-borrowers
+      / co owners (subject to fulfillment of certain criteria).  Co-borrower can be
+      in the capacity of the following: Clubbing of income Property-ownership Both
+      clubbing of income and property ownership Co-borrower can be blood relative
+      (except daughter or sister) or spouse.'
+  utter_ask_faq_home_loan_non_resident:
+  - text: Yes, non – resident Pakistanis can apply for HBL HomeLoan with a co-borrower
+      based in Pakistan.
+  utter_ask_faq_home_loan_procedure:
+  - text: " 1) Salaried individuals to provide:\nOriginal copy of CNIC along with\
+      \ verified copy Two recent passport size photographs Letter from employer Salary\
+      \ slip or attested salary certificate for last 3 months Bank statement for last\
+      \ 12 months Copy of property documents\n2) Self-employed business persons/professionals\
+      \ to provide:\nOriginal copy of CNIC along with verified copy Two recent passport\
+      \ size photographs Proof of occupation/business Bank statement for last 12 months\
+      \ NTN/Tax returns Copy of property documents\nTerms and conditions apply."
+  utter_ask_faq_home_loan_property_value:
+  - text: HBL has arrangements with PBA approved valuators on bank’s panel for this
+      purpose. Charges for appraisal apply as per the Schedule of Bank Charges.
+  utter_ask_faq_loan:
+  - text: what kind of loan you are talking about? Home loan? Car loan ?
+  utter_ask_faq_lost_card:
+  - text: You should immediately call HBL PhoneBanking at 111-111-425 or go to your
+      nearest HBL branch where branch staff will assist you. Upon your request, your
+      card will be blocked and you will be issued a replacement card.
+  utter_default:
+  - text: Sorry, I didn't get that 🤷🏻‍. Could you please rephrase?
+  - text: I didn't understand, could you rephrase that?
+  - text: I'm sorry, but I didn't understand you. Could you please rephrase what you
+      just said?
+  - text: I'm afraid I didn't get what you just said. Could you rephrase that?
+  - text: I didn't quite get that, could you rephrase your message?
+  - text: Could you rephrase your message? I didn't get it, I'm sorry.
+  utter_goodbye:
+  - text: Goodbye!
+  - text: Bye!
+  - text: Ciao!
+  - text: Bye, was nice talking to you!
+  utter_greet:
+  - text: Hello! How can i help?
+  - text: Hi there beautiful :)

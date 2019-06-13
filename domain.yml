@@ -1,0 +1,790 @@
+%YAML 1.1
+---
+actions:
+- utter_current_accounts_types
+- utter_apply_CarLoan
+- utter_utility_bills
+- utter_get_partialpayments
+- uter_asaan_acc_faq
+- utter_asaan_acc_faq
+- utter_credit_card_emigrant
+- utter_get_joint
+- utter_freedom_acc_procedure
+- utter_travel_DebitCard
+- utter_maximumloan
+- utter_transactionlimit
+- utter_getcarloan
+- utter_documents
+- utter_basic_acc_faq
+- utter_goodbye
+- utter_repay_CarLoan
+- utter_unitsmutualfund
+- utter_link_DebitCard
+- utter_get_markup
+- utter_card_pin_forgotten
+- utter_atmpin_DebitCard
+- utter_tempered_DebitCard
+- utter_asaan_acc_features
+- utter_conventional_account_faq
+- utter_rutba_account_faq
+- utter_apply_info
+- utter_get_nonresidents_homeloan
+- utter_usedcar
+- utter_tenure
+- utter_sellcar
+- utter_credit_card_apply
+- utter_credit_card_limit
+- utter_greet
+- utter_calculatehomeloan
+- utter_credit_card_faq
+- utter_apply_DebitCard
+- utter_ask_faq_atm_services
+- utter_joint_CarLoan
+- utter_rutba_account_apply
+- utter_loseprinciple
+- utter_freedom_acc_features
+- utter_card_pin_reset
+- utter_navmutualfunds
+- utter_get_repayment
+- utter_credit_card_usage
+- utter_benefitmutualfunds
+- utter_foreignCurrency_current_features
+- utter_gethomeloan
+- utter_carddifferent
+- utter_renewalcard
+- utter_credit_card_limit_decrease
+- utter_atm_transfer_funds
+- utter_abroaduse_DebitCard
+- utter_value_account_apply
+- utter_conventional_account_features
+- utter_repaymentstatus_CarLoan
+- utter_benefit_CarLoan
+- utter_default
+- utter_foreignCurrency_current_faq
+- utter_pls_saving_account_faq
+- utter_pls_saving_accounts_apply
+- utter_details_DebitCard
+- utter_atmpin
+- utter_principlemutual
+- utter_mutualfund
+- utter_atmpinerror_DebitCard
+- utter_stolencard_DebitCard
+- utter_get_value
+- utter_cardocuments
+- utter_ask_faq_atm_pin_not_working
+- utter_credit_card_bill
+- utter_ask_faq_lost_card
+- utter_value_account_features
+- utter_freedom_acc_faq
+- utter_jammed_card_faq
+- utter_rutba_account_features
+- utter_incomemutualfund
+- utter_time
+- utter_get_title
+- utter_credit_card_cashwithdraw
+- utter_activate_DebitCard
+- utter_foreignCurrency_current_apply
+- utter_balance_CarLoan
+- utter_value_account_faq
+- utter_pointofsale_DebitCard
+- utter_atmservices_DebitCard
+- utter_saving_accounts_types
+- utter_get_repaid
+- utter_partial_CarLoan
+- utter_getpayback
+- utter_installment_CarLoan
+- utter_saving_account_faq
+- utter_getdebitcard
+- utter_chip_DebitCard
+- utter_asaan_acc_procedure
+- utter_cheque_book_apply
+- utter_credit_card_activation
+- utter_basic_acc_procedure
+- utter_credit_card_limit_increase
+- utter_credit_card_withdraw_charges
+- utter_basic_acc_features
+- utter_tenurecar
+- utter_pls_saving_account_features
+- utter_conventional_account_apply
+- utter_chargescard
+- utter_repayment_CarLoan
+- utter_typesmutualfunds
+- utter_current_account_faq
+entities:
+- card
+- account
+- accounts
+- loan
+- loam
+intents:
+- apply_CarLoan
+- apply_HomeLoan
+- calculate_homeloan
+- tenure_homeloan
+- repaid_HomeLoan
+- get_homeloan
+- joint_HomeLoan
+- value_HomeLoan
+- time_homeloan
+- payback_homeloan
+- sell_car
+- maximum_carloan
+- partial_carloan
+- tenure_carloan
+- get_carloan
+- card_pin_forgotten
+- balance_CarLoan
+- renewal_card
+- card_different
+- charges_card
+- get_debitcard
+- repay_CarLoan
+- credit_card_usage
+- transaction_limit
+- asaan_acc_procedure
+- loan_usedcar
+- markup_HomeLoan
+- greet
+- documents_homeloan
+- atm_tranfer_funds
+- not_in_domain
+- partial_CarLoan
+- credit_card_limit_increase
+- conventional_account_apply
+- value_account_features
+- credit_card_limit_decrease
+- value_account_apply
+- current_accounts_types
+- basic_acc_features
+- asaan_acc_faq
+- credit_card_emigrant
+- value_account_faq
+- ask_faq_lost_card
+- freedom_acc_faq
+- foreignCurrency_current_faq
+- credit_card_faq
+- atm_transfer_funds
+- ask_faq_atm_pin_not_working
+- rutba_account_faq
+- credit_card_apply
+- credit_card_withdraw_charges
+- foreignCurrency_current_features
+- pls_saving_accounts_apply
+- saving_accounts_types
+- conventional_account_faq
+- conventional_account_features
+- foreignCurrency_current_apply
+- freedom_acc_procedure
+- pls_saving_account_features
+- basic_acc_procedure
+- credit_card_limit
+- saving_account_faq
+- credit_card_cashwithdraw
+- credit_card_bill
+- jammed_card_faq
+- asaan_acc_features
+- rutba_account_features
+- rutba_account_apply
+- basic_acc_faq
+- credit_card_activation
+- ask_faq_atm_services
+- utility_bills
+- cheque_book_apply
+- freedom_acc_features
+- pls_saving_account_faq
+- card_pin_reset
+- tansaction_limit
+- nav_mutualfunds
+- units_mutualfund
+- types_mutualfunds
+- principle_mutual
+- lose_principle
+- stolencard_DebitCard
+- mutual_fund
+- atm_pin
+- atmpinerror_DebitCard
+- benefit_mutualfunds
+- income_mutualfund
+- atmpin_DebitCard
+- activate_DebitCard
+- atmservices_DebitCard
+- apply_DebitCard
+- documents_carloan
+- repayment_HomeLoan
+- partialpayments_HomeLoan
+- nonresidents_HomeLoan
+- repaymentstatus_CarLoan
+- abroaduse_DebitCard
+- travel_DebitCard
+- tempered_DebitCard
+- details_DebitCard
+- installment_CarLoan
+- repayment_CarLoan
+- goodbye
+- title_HomeLoan
+- benefit_CarLoan
+- pointofsale_DebitCard
+- chip_DebitCard
+- link_DebitCard
+- current_account_faq
+- utter_default
+slots:
+  account:
+    type: text
+  card:
+    type: text
+  loan:
+    type: text
+templates:
+  utter_abroaduse_DebitCard:
+  - text: "HBL DebitCard is internationally accepted at retail outlets where MasterCard,\
+      \ Visa or UnionPay cards are accepted. It is also acceptable at all ATMs abroad\
+      \ that carry the MasterCard, Visa or Plus logos. You can view your account details\
+      \ and withdraw cash with the same ATM PIN that is used in your home country.\
+      \ Please note that you will need to activate international usage on your card\
+      \ by calling HBL PhoneBanking through your registered number with HBL.\nAs per\
+      \ Federal Budget 2018-19, an advance tax of 1% for filers and 3% for non-filers\
+      \ is applicable from 1st July 2018 on all foreign transactions conducted on\
+      \ HBL DebitCard."
+  utter_activate_DebitCard:
+  - text: "To activate your HBL DebitCard, please follow the steps mentioned below:\n\
+      Step 1: Generate your 5 digit activation code by sending the following SMS to\
+      \ 4250 using your HBL registered mobile number:\nDC(Last 4 digits of your Debit\
+      \ card) Example: DC4321\nNote: This activation code will be valid for 3 days\
+      \ only. In case your activation code expires, follow step 1 to re-generate your\
+      \ activation code.\nStep 2: Visit any HBL ATM with your HBL DebitCard, CNIC\
+      \ number and 5 digit activation code.\nStep 3: At the HBL ATM, follow the steps\
+      \ mentioned below:\nInsert your HBL DebitCard into the ATM and select your preferred\
+      \ language (English or Urdu) Enter the 5 digit activation code Enter your date\
+      \ of birth (DD-MM-YYYY) Enter your 13-digit CNIC number Enter a 4-digit ATM\
+      \ PIN of your choice using the keypad Re-enter the ATM PIN for validation\n\
+      Once you have completed these steps, your HBL DebitCard will be activated."
+  utter_apply_CarLoan:
+  - text: If you are a salaried or self-employed business person/professional having
+      a regular, stable and verifiable income stream , you can apply for HBL CarLoan.
+  utter_apply_DebitCard:
+  - text: You can apply for card replacement by visiting your home branch or calling
+      HBL PhoneBanking at 111-111-425.
+  utter_apply_info:
+  - text: Any salaried or self-employed business person / professional with a regular,
+      stable and verifiable income stream can apply for this facility. To apply for
+      loan visit your nearest hbl branch. Fill in the application form and submit
+      it along with the required documents.
+  utter_asaan_acc_faq:
+  - text: A current account that offers ease with the simplest account opening requirements.
+      Experience hassle-free banking and convenience.
+  utter_asaan_acc_features:
+  - text: '    Open an account with just PKR 100/- Free ﬁrst year PayPak debit card
+      No minimum balance requirement Avail up to 4 free over-the-counter withdrawals
+      every month Maximum account balance up to 500,000 Simple 1 page account opening
+      form Receive biannual account statements Access E-statements, 24 hours a day
+      Cheque book, E-statement, SMS Alerts available'
+  utter_asaan_acc_procedure:
+  - text: " Applicant to provide:\nAny one of the following documents may be used\
+      \ as a proof of identity for opening of Asaan Account: • Computerized/Smart\
+      \ National Identity Card (CNIC/SNIC) • National Identity Card for Overseas Pakistanis\
+      \ (NICOP) • Pakistan Origin Card (POC) • Alien Registration Card (ARC) issued\
+      \ by National Aliens Registration Authority (NARA) • Passport • Pension Book\n\
+      Minor Applicant to provide\n• Photocopy of Form-B • Minor to provide Birth Certificate\
+      \ or Student ID card • Guardian to provide photocopy of any of identity document\
+      \ as provided above  "
+  utter_ask_faq_atm_pin_not_working:
+  - text: Cont​act HBL PhoneBanking at 111-111-425 or visit an HBL Branch.
+  utter_ask_faq_atm_services:
+  - text: HBL ATMs can be used for cash withdrawals, HBL DebitCard activation, balance
+      inquiry, mini statement generation, utility bill payments, credit card payments,
+      mobile bill payments, interbank and intrabank funds transfer.
+  utter_ask_faq_lost_card:
+  - text: You should immediately call HBL PhoneBanking at 111-111-425 or go to your
+      nearest HBL branch where branch staff will assist you. Upon your request, your
+      card will be blocked and you will be issued a replacement card.
+  utter_atm_transfer_funds:
+  - text: "Inter Bank Fund Transfer (IBFT) facility is available on Standard Chartered\
+      \ ATMs which allows you to transfer funds from your Standard Chartered Bank\
+      \ savings or current account to an account in any other Participating Bank.\n\
+      The maximum transfer limit per day is PKR 1,000,000* and the funds will be transferred\
+      \ instantly upon confirmation of a successful transaction. This service comes\
+      \ to you absolutely free of charge."
+  utter_atmpin:
+  - text: It’s a four-digit unique number that gives access to your cash and allows
+      you to make any transaction (withdrawal, balance enquiry, mini-statement) through
+      your ATM. It is very important that you keep your PIN safe and confidential
+      and not share it with anybody. Never write the PIN on the back of the debit
+      card.
+  utter_atmpin_DebitCard:
+  - text: To change your ATM PIN, visit any HBL  ATM, enter your current PIN, select
+      “More Options” and go to “Change PIN.”​
+  utter_atmpinerror_DebitCard:
+  - text: Contact HBL PhoneBanking at 111-111-425 or visit an HBL Branch. Or You can
+      get a new debit card PIN online through net banking or by visiting a bank’s
+      ATM. You will have to give your debit card number and CVV number printed on
+      the back of your card and a new PIN number will be sent on your registered mobile
+      number.
+  utter_atmservices_DebitCard:
+  - text: HBL ATMs can be used for cash withdrawals, HBL DebitCard activation, balance
+      inquiry, mini statement generation, utility bill payments, credit card payments,
+      mobile bill payments, interbank and intrabank funds transfer.
+  utter_balance_CarLoan:
+  - text: There is no minimum balance requirement for the repayment account. However,
+      to avoid any inconvenience please ensure that sufficient funds are available
+      in the repayment account before the installment due date so that the installment
+      amount can be deducted from the same accordingly.
+  utter_basic_acc_faq:
+  - text: ' A simple bank account for individuals with minimum transactional requirements.
+      It enables you to fulﬁll your basic banking needs.'
+  utter_basic_acc_features:
+  - text: ' Open an account with just Rs.1,000. No minimum balance requirement. Avail
+      up to two chequing withdrawals in a month (for more transactions, charges applicable
+      as per the prevalent Schedule of Bank Charges) Access numerous branches and
+      ATMs across Pakistan'
+  utter_basic_acc_procedure:
+  - text: " Applicant to provide:\nOriginal CNIC along with veriﬁed copy Proof of\
+      \ income Copy of recent utility bill Terms and conditions apply."
+  utter_benefit_CarLoan:
+  - text: Yes. Based on the fulfillment of certain criteria, existing HBL customers
+      are entitled to certain privileges and benefits. For details please contact
+      HBL PhoneBanking at 111-111-425 or your relevant HBL branch.
+  utter_benefitmutualfunds:
+  - text: The benefits of investing in a Mutual Fund are as follows – Professional
+      Fund Managers – Your investment is managed by fund managers who have a high
+      level of educational and professional credentials and appropriate investment
+      managerial experience. Diversification – Mutual Funds aim to reduce the volatility
+      of returns and the risk by diversification. They invest in a number of companies
+      across a broad section of industries / sectors. With a small investment, an
+      investor can achieve diversification that would have otherwise not been possible
+      if the investor invests directly in those securities. Liquidity – Open-ended
+      Mutual Funds are priced daily and can be redeemed anytime. This mean that investors
+      can redeem their holdings in Mutual Funds anytime.   Low transaction costs –
+      Since Mutual Funds are a pool of money of many investors, the amount of investment
+      made in securities is large. A small management fee is charged by the company,
+      which if invested directly would have cost an individual investor a lot. Transparency
+      – Prices of open ended Mutual Funds are announced daily. The portfolio is also
+      disclosed in the monthly Fund Managers Report.
+  utter_calculatehomeloan:
+  - text: "Loan eligibility is dependent on primarily the following factors:\n1. Cumulative\
+      \ net monthly salary of the applicant and co-applicant.\n2. Quantum of loans\
+      \ and credit card outstanding that you already have. Typically a bank will not\
+      \ give a loan if the total EMI obligation (including the current home loan that\
+      \ your are trying to apply for) exceeds 50-60% of your total net take home salary.\n\
+      3. Loan to asset Value (LTV) ratio of 75% which means that the customer has\
+      \ to fund the remaining 25% through his savings or any other source."
+  utter_card_pin_forgotten:
+  - text: ' After three unsuccessful PIN entry attempts, your card will be temporarily
+      blocked. To reset the PIN for your HBL CreditCard, please call HBL PhoneBanking
+      on 021-111-111-425  '
+  utter_card_pin_reset:
+  - text: You can request to reset your PIN by calling HBL PhoneBanking at 021-111-111-425.
+  utter_carddifferent:
+  - text: In the case of debit card, you use the money from your own bank account;
+      while in the case of a credit card, you are receiving credit from your bank
+      which you will have to repay at a later date with interest.
+  utter_cardocuments:
+  - text: Like any other loan that you apply for, a car loan application requires
+      self attested supporting documents such as income (last three pay slips/last
+      acknowledged ITR), address and identity proof documents along with you license
+      card. Other documentation requirements, if any, tend to differ from one lender
+      to another.
+  utter_chargescard:
+  - text: Usually cash withdrawals from the same bank’s ATMs are absolutely free.
+      However, some banks charge a nominal fee in case there are more than five transactions
+      from your bank’s ATM. However, a fee of Rs 18 is levied on every transaction
+      done on other bank’s ATM.
+  utter_cheque_book_apply:
+  - text: If you want to apply for cheque book .Please visit our nearest branch for
+      details
+  utter_chip_DebitCard:
+  - text: HBL DebitCard provides a higher level of security when used at a chip-reading
+      terminal. The technology in the chip makes it difficult for the card to be copied
+      or counterfeited.​​
+  utter_conventional_account_apply:
+  - text: "  Sole Proprietor to provide:\n• Original CNIC along with verified copy\
+      \ • Request Letter • Copy of NTN certificate\n\nIndividual to provide\nOriginal\
+      \ CNIC along with verified copy Proof of Income Copy of recent utility bill\n\
+      \nPartnership firms to provide:\n• Attested copy of certificate of registration\
+      \ • Certified copy of partnership/partnership deed • Letter of partnership •\
+      \ Copy of NTN certificate • Verified CNIC copies of partners\n\nCompanies to\
+      \ provide:\n• Certificate of incorporation • Memorandum of association • Articles\
+      \ of association • Certified copy of Form 29 • Verified CNIC copies of signatories\n\
+      Copy of NTN certificate and SECP registration "
+  utter_conventional_account_faq:
+  - text: For individuals & entities seeking a secure and reliable current account,
+      the HBL ConventionalCurrentAccount gives you the ease to conduct unlimited transactions,
+      anywhere in Pakistan.
+  utter_conventional_account_features:
+  - text: '    No service charges on maintaining a minimum monthly average balance
+      of Rs. 5,000* Access account through HBL Debit Card, Internet Banking and HBL
+      Phone Banking, 24 hours a day, 7 days a week Benefit of availing unlimited transactions'
+  utter_credit_card_activation:
+  - text: ' Upon receiving your HBL CreditCard, simply call HBL PhoneBanking at 111-111-425
+      from one of your officially registered contact numbers. '
+  utter_credit_card_apply:
+  - text: ' You can apply for a credit card application form, just by calling our
+      24-hour HBL PhoneBanking Centre at 111-111-425, or by visiting any of your local
+      HBL branches, where you could get the relevant information from our branch representative,
+      who will assist you in filling the application form. '
+  utter_credit_card_bill:
+  - text: ' Drop cheques at the drop box facility at specified HBL branches and ATM
+      centres. Cash payments are accepted only at all HBL branches during banking
+      hours. HBL Account Holders can avail the convenience of the Direct Debit facility​'
+  utter_credit_card_cashwithdraw:
+  - text: ' You can withdraw cash up to 50% of your credit limit on your Green Card
+      and 75% of your credit limit on your Gold Card & Platinum Card.  For example,
+      if your credit limit is Rs. 300,000/- and your withdrawal limit is 75% then
+      your cash withdrawal limit will be Rs 225,000/ '
+  utter_credit_card_emigrant:
+  - text: All HBL CreditCards are issued to Pakistan residents only. Therefore, under
+      HBL Policy Guidelines, you have to surrender your cards to the bank if you are
+      proceeding abroad on employment or on emigration.
+  utter_credit_card_faq:
+  - text: A credit card is a card that allows you to borrow money against a line of
+      credit, otherwise known as the card’s credit limit. You use the card to make
+      basic transactions, which are then reflected on your bill.
+  utter_credit_card_limit:
+  - text: ' Your credit limit is displayed on the Welcome Letter you receive with
+      your card. Besides this, your statement also holds details like total limit,
+      current balance (outstanding) and available balance'
+  utter_credit_card_limit_decrease:
+  - text: 'You can request a decrease on your Credit Limit over the phone. The credit
+      limit cannot be any lower than the minimum limit of the product. '
+  utter_credit_card_limit_increase:
+  - text: ' You can call HBL PhoneBanking at 111-111-425 and place request for a credit
+      limit increase.'
+  utter_credit_card_usage:
+  - text: ' You HBL Credit Card can be used in Pakistan and as well as globally for
+      any transaction at any merchant outlet accepting VISA and/or Master Card Credit
+      Cards. '
+  utter_credit_card_withdraw_charges:
+  - text: 'For cash withdrawals through ATMs or over the counter transactions, a nominal
+      fee will be charged as per the Schedule of Charges '
+  utter_current_accounts_types:
+  - text: 'These are the available current accounts in HBL. - Freedom Account - Asaan
+      Account - Basic Banking Account - Foreign Currency Current Account - HBL Conventional
+      Current Account '
+  utter_debit_card_faq:
+  - text: Debit cards offer the convenience of a credit card but work in a different
+      way. Debit cards draw money directly from your checking account when you make
+      the purchase.
+  utter_default:
+  - text: Sorry, I didn't get that 🤷🏻‍. Could you please rephrase?
+  - text: I didn't understand, could you rephrase that?
+  - text: I'm sorry, but I didn't understand you. Could you please rephrase what you
+      just said?
+  - text: I'm afraid I didn't get what you just said. Could you rephrase that?
+  - text: I didn't quite get that, could you rephrase your message?
+  - text: Could you rephrase your message? I didn't get it, I'm sorry.
+  utter_details_DebitCard:
+  - text: You can submit a written request or an Additional Request Form to your home
+      branch mentioning clearly the change in your details.​​
+  utter_documents:
+  - text: "Completed loan application form \nPassport size photographs\nIdentity proof\n\
+      Residence proof\nBank statement for at least past 6 months and salary certificates/\
+      \ latest acknowledged ITR\nAllotment letter of housing board."
+  utter_foreignCurrency_current_apply:
+  - text: " Original CNIC/NICOP along with verified copy Proof of Income Copy of recent\
+      \ utility bill\nTerms and conditions apply.\n*Service charges apply if minimum\
+      \ balance falls below this amount. "
+  utter_foreignCurrency_current_faq:
+  - text: ' An account ideal for all Pakistanis and foreign nationals who wish to
+      maintain foreign currency deposit.'
+  utter_foreignCurrency_current_features:
+  - text: '    Open an account in USD, GBP and EUR and other applicable currencies
+      Maintain a minimum amount balance equivalent to USD 1,000*(For USD/GBP/EUR)
+      Acquire cheque book as per prevalent SOBC Receive biannual statement of account
+      and access e-statements'
+  utter_freedom_acc_faq:
+  - text: ' This account provides a range of free unlimited features catering to the
+      banking needs of business persons. It is designed for sole proprietors, partnership
+      firms and companies across all industries, enabling them to fulfill their business
+      requirements with a convenient and hassle-free banking experience. '
+  utter_freedom_acc_features:
+  - text: 'These are the freatures of the Freedom Account Free inter-city cheque clearing
+      Free stop payment of cheque Free SMS alerts on all transactions Waiver on cheque
+      return charges Free issuance and cancellation of banker’s cheque Free cheque
+      book and duplicate account statement Free funds transfer Free cash withdrawals
+      and deposits Free HBL Debit Card (Individuals & Sole Proprietors) Free online
+      funds transfer transactions* Free intercity funds transfer through the HBL Freedom
+      Account using HBL network Free SMS alert service available to individuals and
+      sole proprietors for all transactions '
+  utter_freedom_acc_procedure:
+  - text: " 1) Sole Proprietor to provide:\nOriginal CNIC along with verified copy\
+      \ Request Letter Copy of NTN certificate\n2)  Partnership firms to provide:\n\
+      Attested copy of certificate of registration Certified copy of partnership/partnership\
+      \ deed Letter of partnership Copy of NTN certificate Verified CNIC copies of\
+      \ partners\n3) Companies to provide:\nCertificate of incorporation Memorandum\
+      \ of association Articles of association Certified copy of Form 29 Verified\
+      \ CNIC copies of signatories Copy of NTN certificate and SECP registration\n\
+      *Terms and conditions apply "
+  utter_get_joint:
+  - text: Yes, two people can jointly apply for the home loan facility as co-borrowers
+      / co owners (subject to fulfillment of certain criteria). Co-borrower can be
+      in the capacity of the following 1.Clubbing of income 2.Property-ownership 3.Both
+      clubbing of income and property ownership
+  utter_get_markup:
+  - text: "Floating rate options: 1 Year Floating – 1 year KIBOR+ margin (to be re-priced\
+      \ after 12 months) 3 Year Floating – 3 year KIBOR + margin (to be re-priced\
+      \ after 36 months) 5 Year Floating – 3 year KIBOR + margin (to be re-priced\
+      \ after 60 months)\nFixed rate options: 5 Year Fixed (fixed for the entire tenure\
+      \ of the loan i.e. 5 years) 10 Year Fixed (fixed for the entire tenure of the\
+      \ loan i.e. 10 years) 15 Year Fixed (fixed for the entire tenure of the loan\
+      \ i.e. 15 years) 20 Year Fixed (fixed for the entire tenure of the loan i.e.\
+      \ 20 years)"
+  utter_get_nonresidents_homeloan:
+  - text: Yes, non – resident Pakistanis can apply for HBL HomeLoan with a co-borrower
+      based in Pakistan.
+  utter_get_partialpayments:
+  - text: Borrowers are allowed to make partial loan payments subject to applicable
+      charges. Further convenience is provided to you by offering two options in case
+      of partial payment. You will have the freedom to either reduce your monthly
+      instalment or maintain the existing instalment and retire the loan earlier.
+      Additional terms and conditions may apply to partial payments.
+  utter_get_repaid:
+  - text: Yes, HBL HomeLoan can be settled before the maturity date. However, certain
+      charges as per the Schedule of Bank Charges apply.
+  utter_get_repayment:
+  - text: Convenient monthly repayments are ensured through direct debit on your personal
+      account. In case you do not have an account with us, one will be opened for
+      you at the time of application.
+  utter_get_title:
+  - text: The title of property is cleared by legal advisor or advocate on approved
+      panel of HBL. Charges for legal opinion apply as per the Schedule of Bank Charges.
+  utter_get_value:
+  - text: HBL has arrangements with PBA approved valuators on bank’s panel for this
+      purpose. Charges for appraisal apply as per the Schedule of Bank Charges.
+  utter_getcarloan:
+  - text: To apply for carloan visit your nearest hbl branch. Fill in the application
+      form and submit it along with the required documents.
+  utter_getdebitcard:
+  - text: It generally comes as a part of the account opening kit of the bank. In
+      case you didn’t receive a debit card while opening a bank account or if you
+      have an old account which was opened when debit cards were not there, you can
+      call on the bank’s customer care number or visit their branch to request for
+      a debit card.
+  utter_gethomeloan:
+  - text: To apply for homeloan visit your nearest hbl branch. Fill in the application
+      form and submit it along with the required documents.
+  utter_getpayback:
+  - text: There are different ways to pay off your loan such as issuing post-dated
+      cheques for the tenure of the home loan, getting the amount deducted automatically
+      from your salary or by issuing standard instructions to the lender for ECS (Electronic
+      Clearing System) wherein the EMI is automatically deducted from your bank every
+      month.
+  utter_goodbye:
+  - text: bye
+  - text: See you later
+  - text: Goodbye
+  utter_greet:
+  - text: Hello, how can I help you?
+  - text: Hi, I am here to help.
+  utter_incomemutualfund:
+  - text: When a fund invests in debt, it requires interest payments at specific times.
+      A fund investing in the stock of corporation receives whatever cash dividends
+      that company pays. Interest payments and dividend income by law must be passed
+      through to the fund’s shareholders i.e. to you. You can even have that income
+      reinvested in more fund shares. Also, when a fund actually sells a stock or
+      bond that has increased in value, the fund realizes a capital gain. Periodically,
+      the fund will distribute such gains to its shareholders in the form of dividend
+      warrants unless you have instructed it to reinvest the gains.
+  utter_installment_CarLoan:
+  - text: For your convenience, a non-checking repayment account will be opened in
+      your name so that you can easily deposit your monthly installment in the same
+      through any HBL branch.
+  utter_jammed_card_faq:
+  - text: 'if your card gets stuck outside the issuing bank, you should inform your
+      bank immediately by calling the customer service department of your bank and
+      provide them with the details of what just happened and the location of the
+      bank where the incident happened '
+  utter_joint_CarLoan:
+  - text: Yes, two people can jointly apply for the CarLoan facility as Co-borrowers.
+      Subject to fulfillment of certain criteria the Co-borrower’s income will be
+      clubbed with your income to meet the requirement.
+  utter_link_DebitCard:
+  - text: You can link your additional account with HBL DebitCard by calling HBL PhoneBanking
+      at 111-111-425 or visit your HBL home branch and fill an Additional Request
+      Form.​
+  utter_loseprinciple:
+  - text: Because the value of a fund fluctuates, when you sell (“redeem”) your shares,
+      the price may be more or less than what you paid for it. Just as the value of
+      your home doesn’t always stay the same, neither does the value of a mutual fund.
+      If you sell your home soon after you buy it, chances are greater you won’t make
+      a profit. The same is true for mutual funds which is a long-term investment.
+  utter_maximumloan:
+  - text: The maximum loan amount approved may vary from one bank to the other. Usually,
+      banks approve loan amounts that range from 80%–90% of the car’s on-road price.
+      Few banks even lend 100% of the car’s ex-showroom price. In addition to these
+      criteria, the percentage of financing offered depends on the price, type of
+      car (standard/ premium) and whether you are applying for a new or pre-owned
+      car.
+  utter_mutualfund:
+  - text: Mutual Fund is a pool of investment / savings of a number of investors who
+      have a common financial goal. These funds are a diversified portfolio of financial
+      instruments (equity, debt or money market) and the pool (total size of the fund)
+      are invested in these markets to help meet investment objectives. The income
+      earned through these investments (capital appreciation) is shared with the unit
+      holders in proportion to the number of units owned by them. Mutual Funds are
+      a suitable investment for the common man as it offers an opportunity to invest
+      in a diversified, professionally managed basket of securities.
+  utter_navmutualfunds:
+  - text: Yes, car loan is offered for pre-used cars. But, the interest rate for such
+      a loan would differ from that of a new car. However, the loan would only cover
+      the price of the car itself, other costs as transfer of registration, etc. will
+      have to borne by you.
+  utter_partial_CarLoan:
+  - text: Yes, you can make partial payment during the tenure. However, certain charges
+      will apply. For details please contact HBL PhoneBanking at 111-111-425 or Click
+      here for detailed Schedule of charges .
+  utter_pls_saving_account_faq:
+  - text: HBL PLS Savings Account can help you earn returns on your savings by semi-annual
+      profit payout. The account offers easy access to your deposits.
+  utter_pls_saving_account_features:
+  - text: '    Open an account with just PKR 100 Receive semi-annual account statements
+      Enjoy the benefit of unlimited transactions Access to E-statements, 24/7 Phone
+      Banking. & Internet Banking Profit payout on semi-annual basis Enjoy biannual
+      profits.'
+  utter_pls_saving_accounts_apply:
+  - text: " Sole Proprietor to provide:\n• Original CNIC along with verified copy\
+      \ • Request Letter • Copy of NTN certificate\n\nPartnership firms to provide:\n\
+      • Attested copy of certificate of registration • Certified copy of partnership/partnership\
+      \ deed • Letter of partnership • Copy of NTN certificate • Verified CNIC copies\
+      \ of partners\n\nCompanies to provide:\n• Certificate of incorporation • Memorandum\
+      \ of association • Articles of association • Certified copy of Form 29 • Verified\
+      \ CNIC copies of signatories • Copy of NTN certificate and SECP registration\n\
+      \nAll applicants are required to provide utility bills for address verification\n\
+      Terms and conditions apply. These are expected rates and can change. All profits\
+      \ payable are subject to Zakat and Government Levies "
+  utter_pointofsale_DebitCard:
+  - text: Present your HBL DebitCard to the merchant for your purchases. The merchant
+      will insert your card on the electronic Point of Sale (POS)​ terminal When you
+      receive the charge slip, check the amount, then proceed to sign it . Please
+      note that for cardholders who are prompted for a PIN at the POS device ( PIN
+      for both ATM / POS usage is same) there will be no sales slip to sign, but rather
+      the cardholder will be required to enter his / her PIN on the POS terminal,
+      after which a receipt shall be printed and handed over to the cardholder (which
+      does not require a signature).Don’t forget to take your card & your transaction
+      slip back from the merchant.
+  utter_principlemutual:
+  - text: Unlike a bank deposit, the value of your principal can rise or fall. People
+      invest in mutual funds because of the fact they want their principal to rise
+      over time. The value of a fund depends on the value of the securities it owns.
+      Stocks and bonds fluctuate in value and therefore so do mutual funds.
+  utter_renewalcard:
+  - text: Debit cards are generally renewed free of cost, however few banks charge
+      a nominal fees.
+  utter_repay_CarLoan:
+  - text: Yes, you can settle your car loan before the maturity date. However, certain
+      charges will apply. For details please contact HBL PhoneBanking at 111-111-425
+      or Click Here for detailed Schedule of charges .
+  utter_repayment_CarLoan:
+  - text: The CarLoan repayment account is a non-checking account .in which you can
+      only deposit your CarLoan monthly installment amount. No other banking transactions
+      can be made from this account.While the borrower can deposit monthly home loan
+      instalment amount in this account other banking transactions and withdrawals
+      cannot be performed.
+  utter_repaymentstatus_CarLoan:
+  - text: All HBL CarLoan customers will be enrolled for HBL PhoneBanking through
+      which they will be able to inquire about their repayment account status as well
+      as avail other related facilities.
+  utter_rutba_account_apply:
+  - text: " Applicant to provide:\nOriginal CNIC along with verified copy Duly Signed\
+      \ account opening form Duly Signed and filled cheque book requisition form for\
+      \ 10-leaves cheque book duly signed\n\n*Terms and Conditions apply"
+  utter_rutba_account_faq:
+  - text: ' HBL Rutba, an account ideal for senior citizens aged 55 years and above.
+      It is a perfect option for those who wish to attain financial independence and
+      lead a stress-free life post retirement.'
+  utter_rutba_account_features:
+  - text: '    Profit payout on monthly basis Free first 10-leaves cheque book Free
+      first year HBL DebitCard /Free issuance of HBL Debit Card Free insurance cover
+      (personal accidental and over-the-counter cash withdrawal) No minimum balance
+      requirement Unlimited deposits and withdrawals No restriction on relationship
+      with the joint account holder (joint account holder should not be a minor) Conduct
+      transactions and make unlimited deposits and withdrawals, without any charges
+      Maintain a monthly average balance greater than PKR10,000 to avail personal
+      accidental and over the counter insurance facilities '
+  utter_saving_account_faq:
+  - text: text "An ideal account for anyone who wants to keep aside some extra funds
+      for emergencies. Rather than keeping large amounts of money at home, HBL’s Savings
+      Account allows you to secure your savings with us, providing principal security
+      as well as a modest profit rate. "
+  utter_saving_accounts_types:
+  - text: ' Here are the different saving accounts of hbl - HBL Value Accounts - HBL
+      Rutba - HBL PLS Saving Account - HBL Money Club'
+  utter_sellcar:
+  - text: No. Lenders who provide car loans to individuals only allow the car to be
+      sold to a new owner when the loan has been paid off in full. This is because,
+      you need to a get a NOC from the bank before you can sell you car and the document
+      is released only after you have paid off the car loan in full.
+  utter_stolencard_DebitCard:
+  - text: You should immediately call HBL PhoneBanking at 111-111-425 or go to your
+      nearest HBL branch where branch staff will assist you. Upon your request, your
+      card will be blocked and you will be issued a replacement card.
+  utter_tempered_DebitCard:
+  - text: Any fraudulent or disputed transaction on your HBL DebitCard should be reported
+      to HBL PhoneBanking at 111-111-425. The bank will scrutinise the transaction
+      and update you on the same.
+  utter_tenure:
+  - text: Home loans are long term borrowing instruments with a minimum tenure of
+      5 years and a maximum tenure of 30 years. The tenure offered to you for your
+      personal loan depends on the loan amount that is sanctioned to you by the lender
+      along with other factors.
+  utter_tenurecar:
+  - text: The tenure of a car loan ranges from 1 year to 5 years. The shorter the
+      loan tenure, the higher is the EMI payable and the reverse is true for longer
+      car loan tenures. Currently, a small number of lenders are engaged in providing
+      car loans for longer durations of up to 7 years.
+  utter_time:
+  - text: You will get the loan within 7 to 15 working days of submitting completed
+      documents.
+  utter_transactionlimit:
+  - text: Yes, there are limits on daily cash withdrawals depending on the type of
+      debit card you hold. You can withdraw from Rs 20,000 to Rs 1 lakh, depending
+      on the type of card you are using. In case of premium cards, cash withdrawal
+      and point-of-sales (POS) limits are higher.
+  utter_travel_DebitCard:
+  - text: "You are required to activate international usage on your HBL DebitCard\
+      \ before travelling. This can be done by calling HBL PhoneBanking through your\
+      \ registered phone number and place international usage activation request.\n\
+      As per Federal Budget 2018-19, an advance tax of 1% for filers and 3% for non-filers\
+      \ is applicable from 1st July 2018 on all foreign transactions conducted on\
+      \ HBL DebitCard."
+  utter_typesmutualfunds:
+  - text: Yes, car loan is offered for pre-used cars. But, the interest rate for such
+      a loan would differ from that of a new car. However, the loan would only cover
+      the price of the car itself, other costs as transfer of registration, etc. will
+      have to borne by you.
+  utter_unitsmutualfund:
+  - text: Yes, car loan is offered for pre-used cars. But, the interest rate for such
+      a loan would differ from that of a new car. However, the loan would only cover
+      the price of the car itself, other costs as transfer of registration, etc. will
+      have to borne by you.
+  utter_usedcar:
+  - text: Yes, car loan is offered for pre-used cars. But, the interest rate for such
+      a loan would differ from that of a new car. However, the loan would only cover
+      the price of the car itself, other costs as transfer of registration, etc. will
+      have to borne by you.
+  utter_utility_bills:
+  - text: Silkbank now offers its customers unmatched convenience and comfort with
+      the launch of its Utility Bills Payment Service (UBPS). Customers can now use
+      their Silkbank VISA Debit Card (VDC) at any Silkbank ATM to pay their utility
+      bills or top up their mobile phones, around the clock, free of charge!
+  utter_value_account_apply:
+  - text: "How to Apply\nApplicant to provide:\nOriginal CNIC along with verified\
+      \ copy Proof of income Copy of recent utility bills\n\nTerms and conditions\
+      \ apply. These are expected rates and can change. All profits payable are subject\
+      \ to Zakat and Government Levies *Service charges apply if minimum balance falls\
+      \ below Rs. 10,000 **For more withdrawals, charges shall apply as per prevalent\
+      \ SOBC"
+  utter_value_account_faq:
+  - text: The ideal savings account for small business owners and housewives seeking
+      great value. HBLValue account allows you to manage your expenses while enabling
+      you to multiply your savings. It is an account that is easy to open and even
+      easier to manage.
+  utter_value_account_features:
+  - text: ' Open your account with just PKR 10,000/- Two free over-the-counter withdrawals
+      every month** Profit calculated on average monthly balance Profit payout on
+      quarterly basis Earn bonus rate on maintaining monthly average balance between
+      PKR 10,000/- to PKR 1,000,000/- '
+  utter_current_account_faq:
+  - text: A current account is a bank account that allows you to access a range of
+      banking services, such as receiving money (like your salary, pension or benefits
+      payments), paying bills, and setting up direct debits and standing orders to
+      make regular payments.

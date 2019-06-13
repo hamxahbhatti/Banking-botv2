@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/omega/Python/Rasa NLU/Banking Bot/./models/nlu/default/Banking_bot/intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "/home/omega/Python/Rasa NLU/Banking Bot/./models/nlu/default/Banking_bot/intent_classifier_tensorflow_embedding.ckpt"
